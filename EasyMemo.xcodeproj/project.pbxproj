@@ -9,18 +9,22 @@
 /* Begin PBXBuildFile section */
 		CEDE44D02C56079C0064993B /* EasyMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE44CF2C56079C0064993B /* EasyMemoApp.swift */; };
 		CEDE44D22C56079C0064993B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE44D12C56079C0064993B /* ContentView.swift */; };
-		CEDE44D42C56079C0064993B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE44D32C56079C0064993B /* Item.swift */; };
 		CEDE44D62C56079F0064993B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDE44D52C56079F0064993B /* Assets.xcassets */; };
 		CEDE44D92C56079F0064993B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDE44D82C56079F0064993B /* Preview Assets.xcassets */; };
+		CEDE44E62C5613D10064993B /* AddMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE44E52C5613D10064993B /* AddMemoView.swift */; };
+		CEDE44E82C56140A0064993B /* MemoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE44E72C56140A0064993B /* MemoListScreen.swift */; };
+		CEDE44EA2C5614CD0064993B /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE44E92C5614CD0064993B /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEDE44CC2C56079C0064993B /* EasyMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDE44CF2C56079C0064993B /* EasyMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMemoApp.swift; sourceTree = "<group>"; };
 		CEDE44D12C56079C0064993B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CEDE44D32C56079C0064993B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CEDE44D52C56079F0064993B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDE44D82C56079F0064993B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDE44E52C5613D10064993B /* AddMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoView.swift; sourceTree = "<group>"; };
+		CEDE44E72C56140A0064993B /* MemoListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListScreen.swift; sourceTree = "<group>"; };
+		CEDE44E92C5614CD0064993B /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,6 @@
 				CEDE44CF2C56079C0064993B /* EasyMemoApp.swift */,
 				CEDE44D12C56079C0064993B /* ContentView.swift */,
 				CEDE44DF2C5607F00064993B /* Domains */,
-				CEDE44D32C56079C0064993B /* Item.swift */,
 				CEDE44E02C56090B0064993B /* Views */,
 				CEDE44E12C5609250064993B /* Screens */,
 				CEDE44D52C56079F0064993B /* Assets.xcassets */,
@@ -76,6 +79,7 @@
 		CEDE44DF2C5607F00064993B /* Domains */ = {
 			isa = PBXGroup;
 			children = (
+				CEDE44E92C5614CD0064993B /* Memo.swift */,
 			);
 			path = Domains;
 			sourceTree = "<group>";
@@ -83,6 +87,7 @@
 		CEDE44E02C56090B0064993B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEDE44E52C5613D10064993B /* AddMemoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 		CEDE44E12C5609250064993B /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				CEDE44E72C56140A0064993B /* MemoListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -165,8 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDE44D22C56079C0064993B /* ContentView.swift in Sources */,
-				CEDE44D42C56079C0064993B /* Item.swift in Sources */,
+				CEDE44E62C5613D10064993B /* AddMemoView.swift in Sources */,
+				CEDE44E82C56140A0064993B /* MemoListScreen.swift in Sources */,
 				CEDE44D02C56079C0064993B /* EasyMemoApp.swift in Sources */,
+				CEDE44EA2C5614CD0064993B /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

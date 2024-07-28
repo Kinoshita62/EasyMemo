@@ -4,7 +4,6 @@
 //
 //  Created by USER on 2024/07/28.
 //
-
 import SwiftUI
 import SwiftData
 
@@ -12,7 +11,7 @@ import SwiftData
 struct EasyMemoApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Memo.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
