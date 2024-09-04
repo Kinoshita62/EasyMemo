@@ -41,6 +41,7 @@
 		CEDE44C32C56079C0064993B = {
 			isa = PBXGroup;
 			children = (
+				CEDE44CF2C56079C0064993B /* EasyMemoApp.swift */,
 				CEDE44CE2C56079C0064993B /* EasyMemo */,
 				CEDE44CD2C56079C0064993B /* Products */,
 			);
@@ -57,7 +58,6 @@
 		CEDE44CE2C56079C0064993B /* EasyMemo */ = {
 			isa = PBXGroup;
 			children = (
-				CEDE44CF2C56079C0064993B /* EasyMemoApp.swift */,
 				CEDE44D12C56079C0064993B /* ContentView.swift */,
 				CEDE44DF2C5607F00064993B /* Domains */,
 				CEDE44E02C56090B0064993B /* Views */,

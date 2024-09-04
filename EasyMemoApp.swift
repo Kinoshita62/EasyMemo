@@ -29,3 +29,4 @@ struct EasyMemoApp: App {
         .modelContainer(sharedModelContainer)
     }
 }
+
